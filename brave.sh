@@ -10,3 +10,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 
 sudo apt install brave-browser -y
+
+
+wget https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
+sudo dpkg -i steam.deb
