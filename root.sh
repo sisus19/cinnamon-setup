@@ -16,6 +16,5 @@ cd /usr/share/icons/
 git clone https://github.com/EliverLara/Sweet.git -b nova
 mv /usr/share/icons/Sweet/kde/cursors/Sweet-cursors /usr/share/icons/
 rm -R /usr/share/icons/Sweet/
-b
 
 
