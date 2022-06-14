@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 sudo apt install apt-transport-https curl -y
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -11,6 +10,7 @@ sudo apt update
 
 sudo apt install brave-browser -y
 
-
+cd
 wget https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
 sudo dpkg -i steam.deb
+rm -R steam.deb
